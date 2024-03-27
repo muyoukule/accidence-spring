@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--纳入spring bean管理-->
+    <bean id="vipService" class="com.muyoukule.Service.VipService"/>
+    <bean id="timerAspect" class="com.muyoukule.Aspect.TimerAspect"/>
+
+    <!--aop配置-->
+    <aop:config>
+        <!--切点表达式-->
+        <aop:pointcut id="p" expression="execution(* com.muyoukule.Service.VipService.*(..))"/>
+        <!--切面-->
+        <aop:aspect ref="timerAspect">
+            <!--切面=通知 + 切点-->
+            <aop:around method="time" pointcut-ref="p"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

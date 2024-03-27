@@ -1,0 +1,6 @@
+com\muyoukule\Main.class
+com\muyoukule\Bean\User.class
+com\muyoukule\Client\ReflectAnnotationTest1.class
+com\muyoukule\Client\ComponentScan.class
+com\muyoukule\Annotation\Component.class
+com\muyoukule\Bean\Vip.class

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="peopleBean" class="com.muyoukule.Bean.People">
+    <property name="names">
+        <list>
+            <value>铁锤</value>
+            <value>张三</value>
+            <value>张三</value>
+            <value>张三</value>
+            <value>狼</value>
+        </list>
+    </property>
+    <property name="phones">
+        <set>
+            <!--非简单类型可以使用ref，简单类型使用value-->
+            <value>110</value>
+            <value>110</value>
+            <value>120</value>
+            <value>120</value>
+            <value>119</value>
+            <value>119</value>
+        </set>
+    </property>
+    <property name="addrs">
+        <map>
+            <!--如果key不是简单类型，使用 key-ref 属性-->
+            <!--如果value不是简单类型，使用 value-ref 属性-->
+            <entry key="1" value="北京大兴区"/>
+            <entry key="2" value="上海浦东区"/>
+            <entry key="3" value="深圳宝安区"/>
+        </map>
+    </property>
+    <property name="properties">
+        <props>
+            <prop key="driver">com.mysql.cj.jdbc.Driver</prop>
+            <prop key="url">jdbc:mysql://localhost:3306/spring</prop>
+            <prop key="username">root</prop>
+            <prop key="password">123456</prop>
+        </props>
+    </property>
+</bean>
+
+
+</beans>

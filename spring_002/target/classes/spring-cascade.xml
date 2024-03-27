@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="clazzBean" class="com.muyoukule.Bean.Clazz"/>
+<bean id="student" class="com.muyoukule.Bean.Student">
+    <property name="name" value="张三"/>
+    <!--要点1：以下两行配置的顺序不能颠倒-->
+    <property name="clazz" ref="clazzBean"/>
+    <!--要点2：clazz属性必须有getter方法-->
+    <property name="clazz.name" value="高三一班"/>
+</bean>
+
+</beans>

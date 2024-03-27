@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--    &lt;!&ndash;byName表示根据名字自动装配&ndash;&gt;-->
+    <!--    <bean id="userService" class="com.muyoukule.Service.UserService" autowire="byName"/>-->
+    <!--    &lt;!&ndash;<bean id="aaa" class="com.muyoukule.Dao.UserDao"/>&ndash;&gt;-->
+    <!--    &lt;!&ndash;这个id修改了&ndash;&gt;-->
+    <!--    <bean id="dao" class="com.muyoukule.Dao.UserDao"/>-->
+
+
+    <!--byType表示根据类型自动装配-->
+    <bean id="accountService" class="com.muyoukule.Service.AccountService" autowire="byType"/>
+    <bean class="com.muyoukule.Dao.AccountDao"/>
+
+    <!--    <bean id="x" class="com.muyoukule.Dao.AccountDao"/>-->
+    <!--    <bean id="y" class="com.muyoukule.Dao.AccountDao"/>-->
+
+</beans>

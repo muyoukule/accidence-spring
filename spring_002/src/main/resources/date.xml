@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="svt" class="com.muyoukule.Bean.SimpleValueType">
+    <!--报错了，说1970-10-11这个字符串无法转换成java.util.Date类型。-->
+    <!--<property name="birth" value="1970-10-11"/>-->
+    <!--如果你硬要把Date当做简单类型的话，使用value赋值的话，这个日期字符串格式有要求-->
+    <!--在实际开发中，我们一般不会把Date当做简单类型，虽然它是简单类型。一般会采用ref给Date类型的属性赋值。-->
+    <property name="birth" value="Wed Oct 19 16:28:13 CST 2022"/>
+</bean>
+
+</beans>

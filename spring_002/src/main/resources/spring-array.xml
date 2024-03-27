@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="goods1" class="com.muyoukule.Bean.Goods">
+        <property name="name" value="西瓜"/>
+    </bean>
+
+    <bean id="goods2" class="com.muyoukule.Bean.Goods">
+        <property name="name" value="苹果"/>
+    </bean>
+
+    <bean id="order" class="com.muyoukule.Bean.Order">
+        <property name="goods">
+            <array>
+                <!--这里使用ref标签即可-->
+                <ref bean="goods1"/>
+                <ref bean="goods2"/>
+            </array>
+        </property>
+    </bean>
+
+</beans>

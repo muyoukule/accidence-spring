@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--    <bean id="userDaoBean" class="com.muyoukule.Dao.UserDao"/>-->
+
+    <!--property标签表示配置当前bean的属性,name属性表示配置哪一个具体的属性,ref属性表示参照哪一个bean-->
+    <!--<bean id="userServiceBean" class="com.muyoukule.Service.UserService">-->
+    <!--    <property name="userDao" ref="userDaoBean"/>-->
+    <!--</bean>-->
+
+    <!--<bean id="userServiceBean" class="com.muyoukule.Service.UserService">-->
+    <!--    <property name="userDao">-->
+    <!--        <ref bean="userDaoBean"/>-->
+    <!--    </property>-->
+    <!--</bean>-->
+
+    <!--    <bean id="orderDaoBean" class="com.muyoukule.Dao.OrderDao"/>-->
+    <!--    <bean id="userDaoBean" class="com.muyoukule.Dao.UserDao"/>-->
+    <!--    <bean id="orderServiceBean" class="com.muyoukule.Service.OrderService">-->
+    <!--        &lt;!&ndash;    &lt;!&ndash;第一个参数下标是0&ndash;&gt;&ndash;&gt;-->
+    <!--        &lt;!&ndash;    <constructor-arg index="0" ref="orderDaoBean"/>&ndash;&gt;-->
+    <!--        &lt;!&ndash;    &lt;!&ndash;第二个参数下标是1&ndash;&gt;&ndash;&gt;-->
+    <!--        &lt;!&ndash;    <constructor-arg index="1" ref="userDaoBean"/>&ndash;&gt;-->
+
+    <!--        &lt;!&ndash;    &lt;!&ndash;这里使用了构造方法上参数的名字&ndash;&gt;&ndash;&gt;-->
+    <!--        &lt;!&ndash;    <constructor-arg name="orderDao" ref="orderDaoBean"/>&ndash;&gt;-->
+    <!--        &lt;!&ndash;    <constructor-arg name="userDao" ref="userDaoBean"/>&ndash;&gt;-->
+
+    <!--        &lt;!&ndash;    &lt;!&ndash;没有指定下标，也没有指定参数名字&ndash;&gt;&ndash;&gt;-->
+    <!--        &lt;!&ndash;    <constructor-arg ref="orderDaoBean"/>&ndash;&gt;-->
+    <!--        &lt;!&ndash;    <constructor-arg ref="userDaoBean"/>&ndash;&gt;-->
+
+    <!--        &lt;!&ndash;    &lt;!&ndash;顺序已经和构造方法的参数顺序不同了&ndash;&gt;&ndash;&gt;-->
+    <!--        &lt;!&ndash;    <constructor-arg ref="userDaoBean"/>&ndash;&gt;-->
+    <!--        &lt;!&ndash;    <constructor-arg ref="orderDaoBean"/>&ndash;&gt;-->
+
+    <!--    </bean>-->
+
+
+    <bean id="userDaoBean" class="com.muyoukule.Dao.UserDao"/>
+
+    <!--property标签表示配置当前bean的属性,name属性表示配置哪一个具体的属性,ref属性表示参照哪一个bean-->
+    <bean id="userServiceBean" class="com.muyoukule.Service.UserService">
+        <property name="userDao" ref="userDaoBean"/>
+    </bean>
+</beans>
