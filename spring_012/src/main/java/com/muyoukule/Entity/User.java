@@ -2,9 +2,7 @@ package com.muyoukule.Entity;
 
 import lombok.*;
 
-@Getter
-@Setter
-@ToString
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class User {

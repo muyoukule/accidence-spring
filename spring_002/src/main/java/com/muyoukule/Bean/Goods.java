@@ -2,9 +2,7 @@ package com.muyoukule.Bean;
 
 import lombok.*;
 
-@Getter
-@Setter
-@ToString
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class Goods {
