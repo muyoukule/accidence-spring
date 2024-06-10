@@ -1,7 +1,7 @@
 package com.muyoukule;
 
-import com.muyoukule.Bean.Husband;
-import com.muyoukule.Bean.Wife;
+import com.muyoukule.bean.Husband;
+import com.muyoukule.bean.Wife;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

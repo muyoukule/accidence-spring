@@ -4,7 +4,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!--<bean id="myTimeBean" class="com.muyoukule.Bean.MyTime" c:year="1970" c:month="1" c:day="5"/>-->
-    <bean id="myTimeBean" class="com.muyoukule.Bean.MyTime" c:_0="2008" c:_1="8" c:_2="8"/>
+    <!--<bean id="myTimeBean" class="com.muyoukule.bean.MyTime" c:year="1970" c:month="1" c:day="5"/>-->
+    <bean id="myTimeBean" class="com.muyoukule.bean.MyTime" c:_0="2008" c:_1="8" c:_2="8"/>
 
 </beans>

@@ -1,7 +1,7 @@
 package com.muyoukule;
 
-import com.muyoukule.Config.SpringConfig;
-import com.muyoukule.Service.*;
+import com.muyoukule.config.SpringConfig;
+import com.muyoukule.service.*;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

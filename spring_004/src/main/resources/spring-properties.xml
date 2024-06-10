@@ -17,7 +17,7 @@
     <context:property-placeholder location="classpath*:*.properties" system-properties-mode="NEVER"/>
 
 
-    <bean id="dataSource" class="com.muyoukule.Bean.MyDataSource">
+    <bean id="dataSource" class="com.muyoukule.bean.MyDataSource">
         <property name="driver" value="${driver}"/>
         <property name="url" value="${url}"/>
         <property name="username" value="${username}"/>

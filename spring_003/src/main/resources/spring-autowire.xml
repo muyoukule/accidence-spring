@@ -4,17 +4,17 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--    &lt;!&ndash;byName表示根据名字自动装配&ndash;&gt;-->
-    <!--    <bean id="userService" class="com.muyoukule.Service.UserService" autowire="byName"/>-->
-    <!--    &lt;!&ndash;<bean id="aaa" class="com.muyoukule.Dao.UserDao"/>&ndash;&gt;-->
+    <!--    <bean id="userService" class="com.muyoukule.service.UserService" autowire="byName"/>-->
+    <!--    &lt;!&ndash;<bean id="aaa" class="com.muyoukule.dao.UserDao"/>&ndash;&gt;-->
     <!--    &lt;!&ndash;这个id修改了&ndash;&gt;-->
-    <!--    <bean id="dao" class="com.muyoukule.Dao.UserDao"/>-->
+    <!--    <bean id="dao" class="com.muyoukule.dao.UserDao"/>-->
 
 
     <!--byType表示根据类型自动装配-->
-    <bean id="accountService" class="com.muyoukule.Service.AccountService" autowire="byType"/>
-    <bean class="com.muyoukule.Dao.AccountDao"/>
+    <bean id="accountService" class="com.muyoukule.service.AccountService" autowire="byType"/>
+    <bean class="com.muyoukule.dao.AccountDao"/>
 
-    <!--    <bean id="x" class="com.muyoukule.Dao.AccountDao"/>-->
-    <!--    <bean id="y" class="com.muyoukule.Dao.AccountDao"/>-->
+    <!--    <bean id="x" class="com.muyoukule.dao.AccountDao"/>-->
+    <!--    <bean id="y" class="com.muyoukule.dao.AccountDao"/>-->
 
 </beans>

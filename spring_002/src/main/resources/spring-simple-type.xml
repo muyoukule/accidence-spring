@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-<bean id="userBean" class="com.muyoukule.Bean.User">
+<bean id="userBean" class="com.muyoukule.bean.User">
     <!--如果像这种int类型的属性，我们称为简单类型，这种简单类型在注入的时候要使用value属性，不能使用ref-->
     <!--<property name="age" value="20"/>-->
     <property name="age">

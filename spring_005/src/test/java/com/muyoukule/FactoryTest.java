@@ -1,7 +1,7 @@
 package com.muyoukule;
 
 
-import com.muyoukule.Bean.*;
+import com.muyoukule.bean.*;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

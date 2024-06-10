@@ -1,7 +1,7 @@
 package com.muyoukule;
 
-import com.muyoukule.Dao.AccountDao;
-import com.muyoukule.Entity.Account;
+import com.muyoukule.dao.AccountDao;
+import com.muyoukule.entity.Account;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;

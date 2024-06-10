@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<bean id="peopleBean" class="com.muyoukule.Bean.People">
+<bean id="peopleBean" class="com.muyoukule.bean.People">
     <property name="names">
         <list>
             <value>铁锤</value>

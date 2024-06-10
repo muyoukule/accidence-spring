@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!--    <bean id="vipBean" class="com.muyoukule.Bean.Vip">
+    <!--    <bean id="vipBean" class="com.muyoukule.bean.Vip">
             &lt;!&ndash;空串的第一种方式&ndash;&gt;
             &lt;!&ndash;<property name="email" value=""/>&ndash;&gt;
             &lt;!&ndash;空串的第二种方式&ndash;&gt;
@@ -15,7 +15,7 @@
     <!--第一种方式：不给属性赋值-->
     <!--<bean id="vipBean" class="com.zxq.Bean.Vip"/>-->
     <!--第二种方式：使用<null/>-->
-    <bean id="vipBean" class="com.muyoukule.Bean.Vip">
+    <bean id="vipBean" class="com.muyoukule.bean.Vip">
         <property name="email">
             <null/>
         </property>

@@ -1,10 +1,10 @@
 package com.muyoukule;
 
 
-import com.muyoukule.Bean.Math;
-import com.muyoukule.Bean.*;
-import com.muyoukule.Service.OrderService;
-import com.muyoukule.Service.UserService;
+import com.muyoukule.bean.Math;
+import com.muyoukule.bean.*;
+import com.muyoukule.service.OrderService;
+import com.muyoukule.service.UserService;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

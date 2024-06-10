@@ -3,11 +3,11 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!--    <bean id="userBean" class="com.muyoukule.Bean.User"/>-->
-    <!--    <bean id="vipBean" class="com.muyoukule.Bean.VipFactory" factory-method="get"/>-->
+    <!--    <bean id="userBean" class="com.muyoukule.bean.User"/>-->
+    <!--    <bean id="vipBean" class="com.muyoukule.bean.VipFactory" factory-method="get"/>-->
 
-    <!--<bean id="orderFactory" class="com.muyoukule.Bean.OrderFactory"/>-->
+    <!--<bean id="orderFactory" class="com.muyoukule.bean.OrderFactory"/>-->
     <!--<bean id="orderBean" factory-bean="orderFactory" factory-method="get"/>-->
 
-    <bean id="personBean" class="com.muyoukule.Bean.PersonFactoryBean"/>
+    <bean id="personBean" class="com.muyoukule.bean.PersonFactoryBean"/>
 </beans>

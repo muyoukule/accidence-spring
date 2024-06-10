@@ -1,6 +1,6 @@
 package com.muyoukule;
 
-import com.muyoukule.Bean.User;
+import com.muyoukule.bean.User;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

@@ -1,12 +1,12 @@
 package com.muyoukule;
 
 
-import com.muyoukule.Bean.Customer;
-import com.muyoukule.Bean.MyDataSource1;
-import com.muyoukule.Bean.MyDataSource2;
-import com.muyoukule.Bean.MyTime;
-import com.muyoukule.Service.AccountService;
-import com.muyoukule.Service.UserService;
+import com.muyoukule.bean.Customer;
+import com.muyoukule.bean.MyDataSource1;
+import com.muyoukule.bean.MyDataSource2;
+import com.muyoukule.bean.MyTime;
+import com.muyoukule.service.AccountService;
+import com.muyoukule.service.UserService;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

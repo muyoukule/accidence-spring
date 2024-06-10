@@ -7,7 +7,7 @@
     <properties resource="jdbc.properties"/>
     <!--别名扫描的包路径-->
     <typeAliases>
-        <package name="com.muyoukule.Entity"/>
+        <package name="com.muyoukule.entity"/>
     </typeAliases>
     <!--数据源-->
     <environments default="mysql">
@@ -23,6 +23,6 @@
     </environments>
     <!--映射文件扫描包路径-->
     <mappers>
-        <package name="com.muyoukule.Dao"/>
+        <package name="com.muyoukule.dao"/>
     </mappers>
 </configuration>

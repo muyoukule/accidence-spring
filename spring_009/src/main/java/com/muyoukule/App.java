@@ -1,6 +1,6 @@
 package com.muyoukule;
 
-import com.muyoukule.Config.SpringConfig;
+import com.muyoukule.config.SpringConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import javax.sql.DataSource;

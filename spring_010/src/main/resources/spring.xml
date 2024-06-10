@@ -6,13 +6,13 @@
                            http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 
     <!--纳入spring bean管理-->
-    <bean id="vipService" class="com.muyoukule.Service.VipService"/>
-    <bean id="timerAspect" class="com.muyoukule.Aspect.TimerAspect"/>
+    <bean id="vipService" class="com.muyoukule.service.VipService"/>
+    <bean id="timerAspect" class="com.muyoukule.aspect.TimerAspect"/>
 
     <!--aop配置-->
     <aop:config>
         <!--切点表达式-->
-        <aop:pointcut id="p" expression="execution(* com.muyoukule.Service.VipService.*(..))"/>
+        <aop:pointcut id="p" expression="execution(* com.muyoukule.service.VipService.*(..))"/>
         <!--切面-->
         <aop:aspect ref="timerAspect">
             <!--切面=通知 + 切点-->

@@ -1,10 +1,10 @@
 package com.muyoukule;
 
 
-import com.muyoukule.Bean.BankDao;
-import com.muyoukule.Bean2.Order;
-import com.muyoukule.Config.SpringConfig;
-import com.muyoukule.Service.UserService;
+import com.muyoukule.bean.BankDao;
+import com.muyoukule.bean2.Order;
+import com.muyoukule.config.SpringConfig;
+import com.muyoukule.service.UserService;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

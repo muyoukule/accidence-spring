@@ -1,7 +1,7 @@
 package com.muyoukule;
 
-import com.muyoukule.Bean.Student;
-import com.muyoukule.Bean.User;
+import com.muyoukule.bean.Student;
+import com.muyoukule.bean.User;
 import org.junit.Test;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.context.ApplicationContext;

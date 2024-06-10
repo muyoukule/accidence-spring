@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="person" class="com.muyoukule.Bean.Person">
+    <bean id="person" class="com.muyoukule.bean.Person">
         <property name="favoriteFoods">
             <array>
                 <value>鸡排</value>

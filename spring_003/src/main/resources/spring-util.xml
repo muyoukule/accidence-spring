@@ -12,10 +12,10 @@
         <prop key="password">root</prop>
     </util:properties>
 
-    <bean id="dataSource1" class="com.muyoukule.Bean.MyDataSource1">
+    <bean id="dataSource1" class="com.muyoukule.bean.MyDataSource1">
         <property name="properties" ref="prop"/>
     </bean>
-    <bean id="dataSource2" class="com.muyoukule.Bean.MyDataSource2">
+    <bean id="dataSource2" class="com.muyoukule.bean.MyDataSource2">
         <property name="properties" ref="prop"/>
     </bean>
 

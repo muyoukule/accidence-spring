@@ -1,6 +1,6 @@
 package com.muyoukule;
 
-import com.muyoukule.Entity.User;
+import com.muyoukule.entity.User;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

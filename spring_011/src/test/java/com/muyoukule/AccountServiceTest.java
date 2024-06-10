@@ -1,7 +1,7 @@
 package com.muyoukule;
 
-import com.muyoukule.Config.SpringConfig;
-import com.muyoukule.Service.AccountService;
+import com.muyoukule.config.SpringConfig;
+import com.muyoukule.service.AccountService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

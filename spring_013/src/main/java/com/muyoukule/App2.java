@@ -1,8 +1,8 @@
 package com.muyoukule;
 
-import com.muyoukule.Config.SpringConfig;
-import com.muyoukule.Entity.Account;
-import com.muyoukule.Service.AccountService;
+import com.muyoukule.config.SpringConfig;
+import com.muyoukule.entity.Account;
+import com.muyoukule.service.AccountService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
